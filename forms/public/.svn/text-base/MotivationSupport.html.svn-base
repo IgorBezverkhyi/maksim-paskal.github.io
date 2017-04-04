@@ -1,0 +1,117 @@
+﻿<!doctype html><html><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=100" >
+<link rel="stylesheet" type="text/css" href="../theme/default/style.css"/>
+<script type="text/javascript" src="../theme/default/jquery-1.12.3.min.js"></script> 
+<script type="text/javascript" src="../theme/default/script.js"></script> 
+</head><body>
+<div class="viewHead">&nbsp;</div>
+<div class="viewCenter">&nbsp;
+<div class="content"><form action="/forms/save.php" method="post">
+<h1>Оценка удовлетворенности работой</h1>
+
+<p align="left">
+Дорогой друг!
+<br>Альфа-Банк проводит исследование среди сотрудников
+<br><b>Цель</b> - изучить Ваше мнение различными аспектами работы в Альфа Банке
+<br>Мы <b>гарантируем</b> абсолютно полную анонимность Ваших ответов.
+</p>
+
+
+<div class="question"><h1>1. Укажите Ваше направление работы:</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q001" id="q001_01" value="Universal "/><label for="q001_01">Universal</label></li>
+<li><input type="radio" name="q001" id="q001_02" value="Plastic "/><label for="q001_02">Plastic</label></li>
+<li><input type="radio" name="q001" id="q001_03" value="Support "/><label for="q001_03">Support</label></li>
+<li><input type="radio" name="q001" id="q001_04" value="A-Club "/><label for="q001_04">A-Club</label></li>
+</ul>
+</div for="question">
+
+
+<div class="question"><h1>2. Оцените, пожалуйста, по 5-бальной шкале следующие пункты (где 1-неудовлетворительная оценка, 5-отличная оценка):</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+<tr><td><div class="rsw-picker"><input type="text" name="q002_01" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q002_01_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td width="100%" valign="bottom">Нравится ли Вам нынешняя система материальной мотивации?
+<br/>
+<br/>Мотивация Universal :
+<img width="600px" src="images/MotivationSupport/current.png"/>
+</td></tr>
+
+
+<tr><td><div class="rsw-picker"><input type="text" name="q002_02" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q002_02_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td width="100%" valign="bottom">Нравится ли Вам нынешняя система не материальной мотивации?
+<address>(награждение лучших сотрудников месяца/квартала/года: дипломы, закрепление рабочих мест, поездки – экскурсии)</address>
+</td></tr>
+
+
+<tr><td><div class="rsw-picker"><input type="text" name="q002_03" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q002_03_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td width="100%" valign="bottom">Нравится ли Вам нынешняя система геймификации?
+<address>(аукционы, розыгрыши, альфа-магазин, fun day и пр.)</address>
+</td></tr>
+
+</table>
+
+
+<div class="question"><h1>3. Какая схема мотивации Вам нравится больше ?</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q003" id="q003_01" value="Чем больше принял звонков при нормальном качестве (оценка ЛОЭ) - тем выше премия (не ограничено)"/><label for="q003_01">Чем больше принял звонков при нормальном качестве (оценка ЛОЭ) - тем выше премия (не ограничено). Премия напрямую зависит от количества обработанных звонков.</label></li>
+<li><input type="radio" name="q003" id="q003_02" value="Чем выше качество (оценка ЛОЭ, жалобы) - тем больше премия"/><label for="q003_02">Чем выше качество (оценка ЛОЭ, жалобы) - тем больше премия. Не зависимо от количества обработанных звонков.</label></li>
+<li><input type="radio" name="q003" id="q003_03" value="Оставить текущую схему"/><label for="q003_03">Оставить текущую схему</label></li>
+<li><input type="radio" name="q003" id="q003_04" value="other"/><label for="q003_04">Свой вариант</label>
+<textarea id="q003OtherId" class="comments hidden required" name="q003Other"></textarea></li>
+</ul>
+</div for="question">
+
+
+<div class="question"><h1>4. Нужно ли что-то изменить в текущей системе материальной мотивации? что именно?</h1>
+<textarea name="q004" class="comments required"></textarea>
+</div for="question">
+
+<div class="question"><h1>5. Нужно ли что-то изменить в текущей системе не материальной мотивации? что именно?</h1>
+<textarea name="q005" class="comments required"></textarea>
+</div for="question">
+
+<div class="question"><h1>6. Нужно ли что-то изменить в текущей системе геймификации? что именно?</h1>
+<textarea name="q006" class="comments required"></textarea>
+</div for="question">
+
+<div class="question"><h1>7. Какие критерии работы, по Вашему мнению  должны учитываться при расчете премии?</h1>
+<textarea name="q007" class="comments required"></textarea>
+</div for="question">
+
+<p align="center">
+Спасибо тебе за твои честные и детальные комментарии.
+<br/>Это поможет нам быть лучше!
+<br/>
+</p>
+
+<div id="submitBlockId" class="submit" align="center"><input type="submit" value="Отправить форму"/></div>
+</form>
+
+</div for="content">
+</div for="viewCenter">
+
+
+</body></html>

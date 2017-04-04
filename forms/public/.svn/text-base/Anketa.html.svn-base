@@ -1,0 +1,1042 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+    <head>
+        <title>Анкета опроса сотрудников Контакт-Центра Альфа-Банка</title>
+
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="Content-language" content="cs" />
+        <meta name="revisit-after" content="1 day" />
+        <link href="../theme/old/css/survey.css" rel="stylesheet" type="text/css" media="screen" title="Default style" />
+        <link href="../theme/old/css/800.css" rel="stylesheet" type="text/css" media="screen" title="Default style" />
+        <link href="../theme/old/css/grey.css" rel="stylesheet" type="text/css" media="screen" title="Default style" />
+        <script type="text/javascript">var onload = [];</script>
+        <style type="text/css">
+.tabl1 {
+   width:80px;
+}
+.tabl2 {
+   width:120px;
+}
+</style>
+<script language="javascript" type="text/javascript">
+function goTo(where) {
+  	document.location.replace(where);
+	return false;
+}
+</script>
+    </head>
+    <body>
+
+	<div id="page">
+	<div id="page_in">
+       	<div id="head_container">
+          <div id="head">
+
+
+              <div class="slogan_out">
+              <div class="slogan">
+                <h1 class="nazev">Оценка удовлетворенности работой в Альфа Банк</h1>
+              </div><!-- / slogan -->
+              </div><!-- / slogan_out -->
+
+                <br class="all" />
+            </div>
+        </div>
+
+
+        <div id="content_container">
+            <div id="content_container_in">
+			<div id="content">
+			<div id="content_in">
+                <!-- vlastni obsah - zacatek -->
+
+                    <div class="survey-text"><p><span lang="RU">Дорогой друг!</span></p>
+
+<p><span lang="RU">Альфа-Банк проводит исследование среди сотрудников</span></p>
+<p><b>Цель</b> - изучить Ваше мнение различными аспектами работы в Альфа Банке</p>
+<p>Мы <b>гарантируем</b> абсолютно полную анонимность Ваших ответов.</p></div>
+<p align="center"><img src="../theme/old/img/logo.jpg" border="0" alt="Оценка удовлетворенности работой"/></p>
+
+<form method="post" action="/forms/save.php" style="padding: 0px; margin: 0px;">
+<div class="required"><div class="heading">
+   <h2><span class="cislo">1. </span>Выберите имя Вашего руководителя:<i class="required" title="Обязательная">*</i></h2>
+</div>
+<div class="body">
+<ul class="fill-one">
+<!--
+  <li><label><input type="radio" value="1" name="q001" id="my"/>Коптиль М.Ю.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="2" name="q001"/>Пономаренко А.В.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="3" name="q001"/>Назаревич Е.В.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="4" name="q001"/>Огиенко М.В.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="5" name="q001"/>Лазарева Н.В.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="6" name="q001"/>Трутень Т.С.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="7" name="q001"/>Павленок М.В.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="8" name="q001"/>Зотова Ю.В.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="9" name="q001"/>Кириченко Н.Е.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="10" name="q001"/>Кушниренко Е.В.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="11" name="q001"/>Тарасенко Ю.А.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="12" name="q001"/>Стародуб С.И.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="13" name="q001"/>Ворошило С.Н.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="14" name="q001"/>Усолкин Е.Л.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="15" name="q001"/>Позняк Е.Н.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="16" name="q001"/>Самойленко Ю.В.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="17" name="q001"/>Рыбальченко А.В.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="18" name="q001"/>Аверьянова О.М.(Контакт-Центр)</label></li>
+  <li><label><input type="radio" value="19" name="q001"/>Никандрова О.И.(ОПР)</label></li>
+  <li><label><input type="radio" value="20" name="q001"/>Горбачевский А.С.(Архив)</label></li>
+  <li><label><input type="radio" value="21" name="q001"/>Сергиенко Д.Т.(Конвейер)</label></li>
+  <li><label><input type="radio" value="22" name="q001"/>Лавская  В.М.(Конвейер)</label></li>
+  <li><label><input type="radio" value="23" name="q001"/>Мещишена И.Н. (выбор только для руководителей групп!)</label></li>
+  <li><label><input type="radio" value="24" name="q001"/>Коваль И.В. (выбор только для руководителей групп!)</label></li>
+  <li><label><input type="radio" value="25" name="q001"/>Тикунова С.В. (выбор только для отдела обучения!)</label></li>
+  <li><label><input type="radio" value="26" name="q001"/>Терегеря Т.А.</label></li>
+-->
+<li><label><input checked="" type="radio" value="Никандрова О.И.(ОПР)" name="q001"/>Никандрова О.И.(ОПР)</label></li>
+</ul>
+<br style="clear:both;"/></div></div>
+<div class="required"><div class="heading">
+   <h2><span class="cislo">2. </span>Какой период времени Вы уже работаете в Альфа-банке?<i class="required" title="Обязательная">*</i></h2>
+</div>
+<div class="body">
+<ul class="fill-one">
+	
+   <li><label><input type="radio" value="1" name="q002"/>0-3 месяцев</label></li>
+   <li><label><input type="radio" value="2" name="q002"/>4-6 месяцев</label></li>
+   <li><label><input type="radio" value="3" name="q002"/>7-12 месяцев</label></li>
+   <li><label><input type="radio" value="4" name="q002"/>1-2 года</label></li>
+   <li><label><input type="radio" value="5" name="q002"/>Более 2-х лет</label></li>
+</ul>
+<br style="clear:both;"/></div></div>
+<div class="required"><div class="heading">
+	<h2><span class="cislo">3. </span>Вы учитесь?<i class="required" title="Обязательная">*</i></h2>
+</div>
+<div class="body">
+<ul class="fill-one">
+	<li><label><input type="radio" value="1" name="q003" />1-3 курс</label></li>
+	<li><label><input type="radio" value="2" name="q003" />4-5 курс</label></li>
+	<li><label><input type="radio" value="3" name="q003" />Учусь заочно</label></li>
+	<li><label><input type="radio" value="4" name="q003" />Окончил обучение</label></li>
+</ul>
+<br style="clear:both;"/></div></div>
+
+<!-- Добавил -->
+<div class="required">
+    <div class="heading">
+	   <h2><span class="cislo">4. </span>Есть ли у Вас дети?<i class="required" title="Обязательная">*</i></h2>
+    </div>
+<div class="body">
+    <ul class="fill-one">
+    	<li><label><input type="radio" value="1" name="q004" />Да, до 3-лет</label></li>
+    	<li><label><input type="radio" value="2" name="q004" />Да, 3-6 года</label></li>
+    	<li><label><input type="radio" value="3" name="q004" />Да, 7-18 лет</label></li>
+    	<li><label><input type="radio" value="4" name="q004" />Да, более 18</label></li>
+        <li><label><input type="radio" value="5" name="q004" />Нет</label></li>
+    </ul>
+<br style="clear:both;"/></div></div>
+<!-- Окончил -->
+<div class="required"><div class="heading">
+	<h2><span class="cislo">5. </span>Оцените удовлетворенность своей текущей работой в Альфа-Банке<i class="required" title="Обязательная">*</i></h2>
+</div>
+<div class="body">
+<ul class="fill-one">
+	<li><label><input type="radio" value="1" name="q005" />Совершенно не удовлетворен</label></li>
+	<li><label><input type="radio" value="2" name="q005" />Скорее не удовлетворен</label></li>
+	<li><label><input type="radio" value="3" name="q005" />Затрудняюсь ответить</label></li>
+	<li><label><input type="radio" value="4" name="q005" />Скорее удовлетворен</label></li>
+	<li><label><input type="radio" value="5" name="q005" />Полностью удовлетворен</label></li>
+</ul>
+<br style="clear:both;"/></div></div>
+<div class="required"><div class="heading">
+	<h2><span class="cislo">6. </span>Оцените, насколько Вы удовлетворены следующими факторами:<i class="required" title="Обязательная">*</i></h2>
+	<p class="help">где 1 - совершенно не удовлетворен, 5 - полностью удовлетворен</p>
+</div>
+<div class="body">
+<table class="skala">
+<tbody>
+	<tr class="first_row">
+		<td>Фактор</td>
+		<td style="width:200px">Описание</td>
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+		<td>4</td>
+		<td>5</td>
+	</tr>
+	<tr class="sudy fill-one">
+		<td class="left first_column">Условия работы</td>
+		<td class="left">Офис, рабочее место, кухня, места общего пользования, телефоны, гарнитуры, ПК</td>
+		<td><input type="radio" value="1" name="q006_1" /></td>
+		<td><input type="radio" value="2" name="q006_1" /></td>
+		<td><input type="radio" value="3" name="q006_1" /></td>
+		<td><input type="radio" value="4" name="q006_1" /></td>
+		<td><input type="radio" value="5" name="q006_1" /></td>
+	</tr>
+	<tr class="fill-one">
+		<td class="left first_column">Заработная плата</td>
+		<td class="left">Уровень оклада и премии</td>
+		<td><input type="radio" value="1" name="q006_2" /></td>
+		<td><input type="radio" value="2" name="q006_2" /></td>
+		<td><input type="radio" value="3" name="q006_2" /></td>
+		<td><input type="radio" value="4" name="q006_2" /></td>
+		<td><input type="radio" value="5" name="q006_2" /></td>
+	</tr>
+	<tr class="sudy fill-one">
+		<td class="left first_column">График работы</td>
+		<td class="left">Удобный, возможность изменений в графику, удобство контейнеров смен</td>
+		<td><input type="radio" value="1" name="q006_3" /></td>
+		<td><input type="radio" value="2" name="q006_3" /></td>
+		<td><input type="radio" value="3" name="q006_3" /></td>
+		<td><input type="radio" value="4" name="q006_3" /></td>
+		<td><input type="radio" value="5" name="q006_3" /></td>
+	</tr>
+	<tr class="fill-one">
+		<td class="left first_column">Карьерный рост</td>
+		<td class="left first_column">Ступени карьерного роста</td>
+		<td><input type="radio" value="1" name="q006_4" /></td>
+		<td><input type="radio" value="2" name="q006_4" /></td>
+		<td><input type="radio" value="3" name="q006_4" /></td>
+		<td><input type="radio" value="4" name="q006_4" /></td>
+		<td><input type="radio" value="5" name="q006_4" /></td>
+	</tr>
+	<tr class="sudy fill-one">
+		<td class="left first_column">Обучение, тренинги</td>
+		<td class="left">Полезность, интересность обучения. Формат обучения. Продолжительность. Периодичность</td>
+		<td><input type="radio" value="1" name="q006_5" /></td>
+		<td><input type="radio" value="2" name="q006_5" /></td>
+		<td><input type="radio" value="3" name="q006_5" /></td>
+		<td><input type="radio" value="4" name="q006_5" /></td>
+		<td><input type="radio" value="5" name="q006_5" /></td>
+	</tr>
+	<tr class="fill-one">
+		<td class="left first_column">Коллектив</td>
+		<td class="left first_column">Отношения в группе и в подразделении в целом</td>
+		<td><input type="radio" value="1" name="q006_6" /></td>
+		<td><input type="radio" value="2" name="q006_6" /></td>
+		<td><input type="radio" value="3" name="q006_6" /></td>
+		<td><input type="radio" value="4" name="q006_6" /></td>
+		<td><input type="radio" value="5" name="q006_6" /></td>
+	</tr>
+	<tr class="sudy fill-one">
+		<td class="left first_column">Руководство</td>
+		<td class="left">Руководитель Вашей группы</td>
+		<td><input type="radio" value="1" name="q006_7" /></td>
+		<td><input type="radio" value="2" name="q006_7" /></td>
+		<td><input type="radio" value="3" name="q006_7" /></td>
+		<td><input type="radio" value="4" name="q006_7" /></td>
+		<td><input type="radio" value="5" name="q006_7" /></td>
+	</tr>
+	<tr class="fill-one">
+		<td class="left first_column">Нематериальная мотивация</td>
+		<td class="left">Награждения лучших сотрудников, корпоративные мероприятия. Регулярность проведения</td>
+		<td><input type="radio" value="1" name="q006_8" /></td>
+		<td><input type="radio" value="2" name="q006_8" /></td>
+		<td><input type="radio" value="3" name="q006_8" /></td>
+		<td><input type="radio" value="4" name="q006_8" /></td>
+		<td><input type="radio" value="5" name="q006_8" /></td>
+	</tr>
+	<tr class="sudy fill-one">
+		<td class="left first_column">Ясность личных целей</td>
+		<td class="left">Понятность постановки краткосрочных задач и задач на период аттестации</td>
+		<td><input type="radio" value="1" name="q006_9" /></td>
+		<td><input type="radio" value="2" name="q006_9" /></td>
+		<td><input type="radio" value="3" name="q006_9" /></td>
+		<td><input type="radio" value="4" name="q006_9" /></td>
+		<td><input type="radio" value="5" name="q006_9" /></td>
+	</tr>
+	<tr class="fill-one">
+		<td class="left first_column">Характер выполняемой работы</td>
+		<td class="left">Удовлетворение своей работой. Специфика работы</td>
+		<td><input type="radio" value="1" name="q006_10" /></td>
+		<td><input type="radio" value="2" name="q006_10" /></td>
+		<td><input type="radio" value="3" name="q006_10" /></td>
+		<td><input type="radio" value="4" name="q006_10" /></td>
+		<td><input type="radio" value="5" name="q006_10" /></td>
+	</tr>
+</tbody>
+</table>
+</div></div>
+
+<div class="required"><div class="heading">
+<h2><span class="cislo">7. </span>Оцените, насколько для Вас важно:<i class="required" title="Обязательная">*</i></h2>
+<p class="help">Отсортируйте факторы по важности (перемещение мышкой), где вверху установите самые важные, а внизу самые не важные для Вас</p>
+</div>
+<div class="body"><div class="sort-criteria">
+<ol>
+   <li>
+       <select name="q007_1" size="1" >
+       	<option value="">N/A</option>
+       	<option selected="selected" value="1">1.</option>
+       	<option value="2">2.</option>
+       	<option value="3">3.</option>
+       	<option value="4">4.</option>
+       	<option value="5">5.</option>
+       	<option value="6">6.</option>
+       	<option value="7">7.</option>
+       	<option value="8">8.</option>
+       	<option value="9">9.</option>
+       	<option value="10">10.</option>
+       </select>
+       <input type="hidden" name="moznost_id" value="171203" />
+       Условия работы
+   </li>
+   <li>
+       <select name="q007_2" size="1" >
+       	<option value="">N/A</option>
+       	<option value="1">1.</option>
+       	<option selected="selected" value="2">2.</option>
+       	<option value="3">3.</option>
+       	<option value="4">4.</option>
+       	<option value="5">5.</option>
+       	<option value="6">6.</option>
+       	<option value="7">7.</option>
+       	<option value="8">8.</option>
+       	<option value="9">9.</option>
+       	<option value="10">10.</option>
+       </select>
+       <input type="hidden" name="moznost_id" value="171204" />
+       Заработная плата
+   </li>
+   <li>
+       <select name="q007_3" size="1" >
+       	<option value="">N/A</option>
+        <option value="1">1.</option>
+        <option value="2">2.</option>
+        <option selected="selected" value="3">3.</option>
+        <option value="4">4.</option>
+        <option value="5">5.</option>
+        <option value="6">6.</option>
+       	<option value="7">7.</option>
+       	<option value="8">8.</option>
+       	<option value="9">9.</option>
+       	<option value="10">10.</option>
+       </select>
+       <input type="hidden" name="moznost_id" value="171205" />
+       График работы
+   </li>
+   <li>
+   	   <select name="q007_4" size="1" >
+   	   	<option value="">N/A</option>
+   	   	<option value="1">1.</option>
+   	   	<option value="2">2.</option>
+   	   	<option value="3">3.</option>
+   	   	<option selected="selected" value="4">4.</option>
+   	   	<option value="5">5.</option>
+   	   	<option value="6">6.</option>
+       	<option value="7">7.</option>
+       	<option value="8">8.</option>
+       	<option value="9">9.</option>
+       	<option value="10">10.</option>
+   	   </select>
+   	   <input type="hidden" name="moznost_id" value="171213" />
+   	   Карьерный рост
+   </li>
+   <li>
+       <select name="q007_5" size="1" >
+       	<option value="">N/A</option>
+       	<option value="1">1.</option>
+       	<option value="2">2.</option>
+       	<option value="3">3.</option>
+       	<option value="4">4.</option>
+       	<option selected="selected" value="5">5.</option>
+       	<option value="6">6.</option>
+       	<option value="7">7.</option>
+       	<option value="8">8.</option>
+       	<option value="9">9.</option>
+       	<option value="10">10.</option>
+       </select>
+       <input type="hidden" name="moznost_id" value="171214" />
+       Обучение, тренинги
+   </li>
+   <li>
+       <select name="q007_6" size="1" >
+       	<option value="">N/A</option>
+       	<option value="1">1.</option>
+       	<option value="2">2.</option>
+       	<option value="3">3.</option>
+       	<option value="4">4.</option>
+       	<option value="5">5.</option>
+       	<option selected="selected" value="6">6.</option>
+       	<option value="7">7.</option>
+       	<option value="8">8.</option>
+       	<option value="9">9.</option>
+       	<option value="10">10.</option>
+       </select>
+       <input type="hidden" name="moznost_id" value="171214" />
+       Коллектив
+   </li>
+   <li>
+       <select name="q007_7" size="1" >
+       	<option value="">N/A</option>
+       	<option value="1">1.</option>
+       	<option value="2">2.</option>
+       	<option value="3">3.</option>
+       	<option value="4">4.</option>
+       	<option value="5">5.</option>
+       	<option value="6">6.</option>
+       	<option selected="selected" value="7">7.</option>
+       	<option value="8">8.</option>
+       	<option value="9">9.</option>
+       	<option value="10">10.</option>
+       </select>
+       <input type="hidden" name="moznost_id" value="171214" />
+       Руководство
+   </li>
+   <li>
+       <select name="q007_8" size="1" >
+       	<option value="">N/A</option>
+       	<option value="1">1.</option>
+       	<option value="2">2.</option>
+       	<option value="3">3.</option>
+       	<option value="4">4.</option>
+       	<option value="5">5.</option>
+       	<option value="6">6.</option>
+       	<option value="7">7.</option>
+       	<option selected="selected" value="8">8.</option>
+       	<option value="9">9.</option>
+       	<option value="10">10.</option>
+       </select>
+       <input type="hidden" name="moznost_id" value="171214" />
+       Нематериальная мотивация
+   </li>
+   <li>
+       <select name="q007_9" size="1" >
+       	<option value="">N/A</option>
+       	<option value="1">1.</option>
+       	<option value="2">2.</option>
+       	<option value="3">3.</option>
+       	<option value="4">4.</option>
+       	<option value="5">5.</option>
+       	<option value="6">6.</option>
+       	<option value="7">7.</option>
+       	<option value="8">8.</option>
+       	<option selected="selected" value="9">9.</option>
+       	<option value="10">10.</option>
+       </select>
+       <input type="hidden" name="moznost_id" value="171214" />
+       Ясность личных целей
+   </li>
+   <li>
+       <select name="q007_10" size="1" >
+       	<option value="">N/A</option>
+       	<option value="1">1.</option>
+       	<option value="2">2.</option>
+       	<option value="3">3.</option>
+       	<option value="4">4.</option>
+       	<option value="5">5.</option>
+       	<option value="6">6.</option>
+       	<option value="7">7.</option>
+       	<option value="8">8.</option>
+       	<option value="9">9.</option>
+       	<option selected="selected" value="10">10.</option>
+       </select>
+       <input type="hidden" name="moznost_id" value="171214" />
+       Характер выполняемой работы
+   </li>
+</ol>
+</div>
+<br style="clear:both;" /></div></div>
+
+<!--Добавил-->
+<div class="required">
+    <div class="heading">
+	<h2><span class="cislo">8. </span>Какое вознаграждение за свою работу Вы считаете достойным?<i class="required" title="Обязательная">*</i></h2>
+	<p class="help">Для оценки используйте пятибальную шкалу, где 1-совершенно не согласен, 5-полностью согласен.</p>
+</div>
+<div class="body">
+<table class="skala">
+<tbody>
+	<tr class="first_row">
+		<td>Фактор</td>
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+		<td>4</td>
+		<td>5</td>
+	</tr>
+	<tr class="sudy fill-one">
+		<td class="left first_column">Обратную связь, позволяющую судить о результатах работы</td>
+		<td><input type="radio" value="1" name="q008_1" /></td>
+		<td><input type="radio" value="2" name="q008_1" /></td>
+		<td><input type="radio" value="3" name="q008_1" /></td>
+		<td><input type="radio" value="4" name="q008_1" /></td>
+		<td><input type="radio" value="5" name="q008_1" /></td>
+	</tr>
+	<tr class="fill-one">
+		<td class="left first_column">Признание руководства</td>
+		<td><input type="radio" value="1" name="q008_2" /></td>
+		<td><input type="radio" value="2" name="q008_2" /></td>
+		<td><input type="radio" value="3" name="q008_2" /></td>
+		<td><input type="radio" value="4" name="q008_2" /></td>
+		<td><input type="radio" value="5" name="q008_2" /></td>
+	</tr>
+	<tr class="sudy fill-one">
+		<td class="left first_column">Возможность влиять  на принятие решений</td>
+		<td><input type="radio" value="1" name="q008_3" /></td>
+		<td><input type="radio" value="2" name="q008_3" /></td>
+		<td><input type="radio" value="3" name="q008_3" /></td>
+		<td><input type="radio" value="4" name="q008_3" /></td>
+		<td><input type="radio" value="5" name="q008_3" /></td>
+	</tr>
+	<tr class="fill-one">
+		<td class="left first_column">Высокий уровень заработной платы</td>
+		<td><input type="radio" value="1" name="q008_4" /></td>
+		<td><input type="radio" value="2" name="q008_4" /></td>
+		<td><input type="radio" value="3" name="q008_4" /></td>
+		<td><input type="radio" value="4" name="q008_4" /></td>
+		<td><input type="radio" value="5" name="q008_4" /></td>
+	</tr>
+	<tr class="sudy fill-one">
+		<td class="left first_column">Возможность развития карьерного роста</td>
+		<td><input type="radio" value="1" name="q008_5" /></td>
+		<td><input type="radio" value="2" name="q008_5" /></td>
+		<td><input type="radio" value="3" name="q008_5" /></td>
+		<td><input type="radio" value="4" name="q008_5" /></td>
+		<td><input type="radio" value="5" name="q008_5" /></td>
+	</tr>
+</tbody>
+</table>
+</div></div>
+<!--Закончил-->
+<!--Добавил-->
+<div class="required">
+    <div class="heading">
+	   <h2><span class="cislo">9. </span>Как изменилась эффективность Вашей работы после внедрения комплекса мероприятий по нематериальной мотивации?  <i class="required" title="Обязательная">*</i></h2>
+    </div>
+<div class="body">
+    <ul class="fill-one">
+    	<li><label><input type="radio" value="1" name="q009" />Эффективность увеличилась</label></li>
+    	<li><label><input type="radio" value="2" name="q009" />Эффективность уменьшилась</label></li>
+    	<li><label><input type="radio" value="3" name="q009" />Ничего не изменилось</label></li>
+    </ul>
+<br style="clear:both;"/></div></div>
+<!--Закончил-->
+<div class="required"><div class="heading">
+    <h2><span class="cislo">10. </span>Какие ещё нематериальные поощрения Вы бы внедрили?</h2>
+    </div>
+    <div class="body"><div class="fill-all">
+    	<textarea name="q010" rows="3" cols="80" style="width:99%; height:5.1em">.</textarea>
+    </div><br />
+    </div>
+</div>
+<!--Добавил-->
+<div class="required">
+    <div class="heading">
+	   <h2><span class="cislo">11. </span>Вы знаете/ понимаете, что нужно сделать для повышения категории сотрудника? <i class="required" title="Обязательная">*</i></h2>
+    </div>
+<div class="body">
+    <ul class="fill-one">
+    	<li><label><input type="radio" value="1" name="q011" />Да, знаю и понимаю</label></li>
+    	<li><label><input type="radio" value="2" name="q011" />Частично знаю/понимаю</label></li>
+    	<li><label><input type="radio" value="3" name="q011" />Нет, не знаю</label></li>
+    </ul>
+<br style="clear:both;"/></div></div>
+<!--Закончил-->
+<!--Добавил начисление премии-->
+<div class="required">
+    <div class="heading">
+	   <h2><span class="cislo">12. </span>Насколько понятными для Вас являются критерии начисления ежемесячных премий? <i class="required" title="Обязательная">*</i></h2>
+    </div>
+    <table>
+    <tr class="sudy fill-one">
+		<td class="left first_column">Абсолютно не понятные</td>
+		<td><input type="radio" value="1" name="q012" />1</td>
+		<td><input type="radio" value="2" name="q012" />2</td>
+		<td><input type="radio" value="3" name="q012" />3</td>
+		<td><input type="radio" value="4" name="q012" />4</td>
+		<td><input type="radio" value="5" name="q012" />5</td>
+        <td>Полностью понятные</td>
+	</tr>
+    </table>
+<div class="body">
+<br style="clear:both;"/></div></div>
+<!--Закончил-->
+<!--Добавил-->
+<div class="required">
+    <div class="heading">
+	   <h2><span class="cislo">13. </span>Какое из утверждений лучше всего характеризует Ваше отношение к решениям руководства Вашего подразделения, принятым за последний год?<i class="required" title="Обязательная">*</i></h2>
+    </div>
+<div class="body">
+    <ul class="fill-one">
+    	<li><label><input type="radio" value="1" name="q013" />Я понимаю и одобряю большинство его решений</label></li>
+    	<li><label><input type="radio" value="2" name="q013" />Я понимаю, но не одобряю большинство его решений </label></li>
+    	<li><label><input type="radio" value="3" name="q013" />Я не понимаю и многих решений, но считаю, что их нужно поддерживать</label></li>
+    	<li><label><input type="radio" value="4" name="q013" />Я не понимаю и не поддерживаю его решения </label></li>
+    </ul>
+<br style="clear:both;"/></div></div>
+<!--Закончил-->
+<div class="required"><div class="heading">
+	<h2><span class="cislo">14. </span>Оцените, насколько Вы согласны с утверждениями касательно Вашего непосредственного руководителя:<i class="required" title="Обязательная">*</i></h2>
+	<p class="help">где  1- совершенно не согласен, 5 - полностью согласен.</p>
+</div>
+<div class="body">
+<table class="skala">
+<tbody>
+	<tr class="first_row">
+		<td>Фактор</td>
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+		<td>4</td>
+		<td>5</td>
+	</tr>
+	<tr class="sudy fill-one">
+		<td class="left first_column">Компетентен по всем профессиональным вопросам</td>
+		<td><input type="radio" value="1" name="q014_1" /></td>
+		<td><input type="radio" value="2" name="q014_1" /></td>
+		<td><input type="radio" value="3" name="q014_1" /></td>
+		<td><input type="radio" value="4" name="q014_1" /></td>
+		<td><input type="radio" value="5" name="q014_1" /></td>
+	</tr>
+	<tr class="fill-one">
+		<td class="left first_column">Контролирует поставленные задачи</td>
+		<td><input type="radio" value="1" name="q014_2" /></td>
+		<td><input type="radio" value="2" name="q014_2" /></td>
+		<td><input type="radio" value="3" name="q014_2" /></td>
+		<td><input type="radio" value="4" name="q014_2" /></td>
+		<td><input type="radio" value="5" name="q014_2" /></td>
+	</tr>
+	<tr class="sudy fill-one">
+		<td class="left first_column">Инициативный, ответственный, внимательный к сотрудникам</td>
+		<td><input type="radio" value="1" name="q014_3" /></td>
+		<td><input type="radio" value="2" name="q014_3" /></td>
+		<td><input type="radio" value="3" name="q014_3" /></td>
+		<td><input type="radio" value="4" name="q014_3" /></td>
+		<td><input type="radio" value="5" name="q014_3" /></td>
+	</tr>
+	<tr class="fill-one">
+		<td class="left first_column">Ставит четкие цели и конкретные задачи</td>
+		<td><input type="radio" value="1" name="q014_4" /></td>
+		<td><input type="radio" value="2" name="q014_4" /></td>
+		<td><input type="radio" value="3" name="q014_4" /></td>
+		<td><input type="radio" value="4" name="q014_4" /></td>
+		<td><input type="radio" value="5" name="q014_4" /></td>
+	</tr>
+	<tr class="sudy fill-one">
+		<td class="left first_column">Обратная связь от непосредственного руководителя регулярная</td>
+		<td><input type="radio" value="1" name="q014_5" /></td>
+		<td><input type="radio" value="2" name="q014_5" /></td>
+		<td><input type="radio" value="3" name="q014_5" /></td>
+		<td><input type="radio" value="4" name="q014_5" /></td>
+		<td><input type="radio" value="5" name="q014_5" /></td>
+	</tr>
+    <tr class="fill-one">
+		<td class="left first_column">Заботится о сотрудниках</td>
+		<td><input type="radio" value="1" name="q014_6" /></td>
+		<td><input type="radio" value="2" name="q014_6" /></td>
+		<td><input type="radio" value="3" name="q014_6" /></td>
+		<td><input type="radio" value="4" name="q014_6" /></td>
+		<td><input type="radio" value="5" name="q014_6" /></td>
+	</tr>
+    <tr class="sudy fill-one">
+		<td class="left first_column">Ставит невыполнимые задачи</td>
+		<td><input type="radio" value="1" name="q014_7" /></td>
+		<td><input type="radio" value="2" name="q014_7" /></td>
+		<td><input type="radio" value="3" name="q014_7" /></td>
+		<td><input type="radio" value="4" name="q014_7" /></td>
+		<td><input type="radio" value="5" name="q014_7" /></td>
+	</tr>
+    <tr class="fill-one">
+		<td class="left first_column">Объективно оценивает результаты работы персонала</td>
+		<td><input type="radio" value="1" name="q014_8" /></td>
+		<td><input type="radio" value="2" name="q014_8" /></td>
+		<td><input type="radio" value="3" name="q014_8" /></td>
+		<td><input type="radio" value="4" name="q014_8" /></td>
+		<td><input type="radio" value="5" name="q014_8" /></td>
+	</tr>
+	<tr class="fill-one">
+		<td class="left first_column">Готовность помочь. Возможность получить ответы на все вопросы </td>
+		<td><input type="radio" value="1" name="q014_9" /></td>
+		<td><input type="radio" value="2" name="q014_9" /></td>
+		<td><input type="radio" value="3" name="q014_9" /></td>
+		<td><input type="radio" value="4" name="q014_9" /></td>
+		<td><input type="radio" value="5" name="q014_9" /></td>
+	</tr>
+</tbody>
+</table>
+</div></div>
+<!--Добавил-->
+<div class="required">
+    <div class="heading">
+	   <h2><span class="cislo">15. </span>Как Вы оцениваете атмосферу в своей группе/отделе:<i class="required" title="Обязательная">*</i></h2>
+    </div>
+<div class="body">
+    <ul class="fill-one">
+    	<li><label><input type="checkbox" value="1" name="q015_1" />Дружеская</label></li>
+    	<li><label><input type="checkbox" value="2" name="q015_2" />Рабочая </label></li>
+    	<li><label><input type="checkbox" value="3" name="q015_3" />Командная (один за всех и все за одного)</label></li>
+    	<li><label><input type="checkbox" value="4" name="q015_4" />Напряженная </label></li>
+        <li><label><input type="checkbox" value="5" name="q015_5" />Зависимая от руководителя </label></li>
+        <li><label><input type="checkbox" value="6" name="q015_6" />В группе существуют конфликты (укажите причины, примеры)</label> </li>
+        <li><textarea name="q015_text1" class="forText" rows="3" cols="80"></textarea></li>
+        <li><label><input type="checkbox" value="7" name="q015_7" />Напряженная (укажите причины, примеры)</label> </li>
+        <li><textarea name="q015_text2" class="forText" rows="3" cols="80"></textarea></li>
+    </ul>
+<br style="clear:both;"/></div></div>
+
+<!--Закончил-->
+
+<!--Start-->
+<div class="required">
+    <div class="heading">
+	   <h2><span class="cislo">16. </span> Хотели бы Вы работать в другой группе/отделе?<i class="required" title="Обязательная">*</i></h2>
+    </div>
+<div class="body">
+    <ul class="fill-one">
+    	<li><label><input type="radio" value="1" name="q016" />Только в своей</label></li>
+    	<li><label><input type="radio" value="2" name="q016" />Не имеет значения</label></li>
+    	<li><label><input type="radio" value="3" name="q016" />Да (указать руководителя группы, в которой хотите работать и основную причину)</label></li>
+        <li><textarea name="q016_text" class="forText" rows="3" cols="80"></textarea></li>
+    </ul>
+<br style="clear:both;"/></div></div>
+<!--Finish-->
+
+<!--
+<div class="required">
+    <div class="heading">
+	   <h2><span class="cislo">17. </span> Оцените, пожалуйста, качество тренингов, в которых Вы принимали участие?<i class="required" title="Обязательная">*</i></h2>
+    	<p class="help">Поставьте оценку, где 1 означает «совсем не удовлетворен», а 5 - «полностью удовлетворен». Если вы не участвовали в тренингах у тренера – оставьте поле незаполненным.</p>
+    </div>
+<div class="body">
+    <table class="skala">
+	<tbody>
+	<tr class="first_row">
+		<td>Критерии</td>
+		<td>Волченко</td>
+		<td>Шишкина</td>
+		<td>Томаш</td>
+		<td>Филон</td>
+		<td>Сердюк</td>
+	</tr>
+	<tr class="fill-one">
+		<td class="left first_column">Качество полученных знаний (польза информации для Вас)</td>
+		<td><input type="text" name="q017_1" /></td>
+		<td><input type="text" name="q017_2" /></td>
+		<td><input type="text" name="q017_3" /></td>
+		<td><input type="text" name="q017_4" /></td>
+		<td><input type="text" name="q017_5" /></td>
+	</tr>
+	<tr class="sudy fill-one">
+		<td class="left first_column">Доступность и понятность информации</td>
+		<td><input type="text" name="q017_6" /></td>
+		<td><input type="text" name="q017_7" /></td>
+		<td><input type="text" name="q017_8" /></td>
+		<td><input type="text" name="q017_9" /></td>
+		<td><input type="text" name="q017_10" /></td>
+	</tr>
+	<tr class="fill-one">
+		<td class="left first_column">Готовность помочь. Возможность получить ответы на все вопросы</td>
+		<td><input type="text" name="q017_11" /></td>
+		<td><input type="text" name="q017_12" /></td>
+		<td><input type="text" name="q017_13" /></td>
+		<td><input type="text" name="q017_14" /></td>
+		<td><input type="text" name="q017_15" /></td>
+	</tr>
+	
+</tbody>
+</table>
+<br style="clear:both;"/></div></div>
+-->
+<!--Finish-->
+<div class="required"><div class="heading">
+   <h2><span class="cislo">17. </span>Укажите какой формат получения знаний** лично для Вас самый эффективный?<i class="required" title="Обязательная">*</i></h2>
+   <p class="help">** имеется ввиду такой вид получения знаний, после которого знания остаются на постоянной основе и  Вы в любой момент можете ими воспользоваться (вспомнить информацию)</p>
+   <p class="help">где 1 - совершенно не эффективный, 5 -максимально эффективный</p>
+   <table class="skala">
+<tbody>
+	<tr class="first_row">
+		<td>Формат</td>
+		<td>1</td>
+		<td>2</td>
+		<td>3</td>
+		<td>4</td>
+		<td>5</td>
+	</tr>
+	<tr class="sudy fill-one">
+		<td class="left first_column">Самостоятельная работа с БЗ/выполнение домашнего задания от тренера</td>
+		<td><input type="radio" value="1" name="q017_1" /></td>
+		<td><input type="radio" value="2" name="q017_1" /></td>
+		<td><input type="radio" value="3" name="q017_1" /></td>
+		<td><input type="radio" value="4" name="q017_1" /></td>
+		<td><input type="radio" value="5" name="q017_1" /></td>
+	</tr>
+	<tr class="fill-one">
+		<td class="left first_column">Просмотр видеороликов/видеокурсов</td>
+		<td><input type="radio" value="1" name="q017_2" /></td>
+		<td><input type="radio" value="2" name="q017_2" /></td>
+		<td><input type="radio" value="3" name="q017_2" /></td>
+		<td><input type="radio" value="4" name="q017_2" /></td>
+		<td><input type="radio" value="5" name="q017_2" /></td>
+	</tr>
+	<tr class="sudy fill-one">
+		<td class="left first_column">Презентация с комментариями тренера</td>
+		<td><input type="radio" value="1" name="q017_3" /></td>
+		<td><input type="radio" value="2" name="q017_3" /></td>
+		<td><input type="radio" value="3" name="q017_3" /></td>
+		<td><input type="radio" value="4" name="q017_3" /></td>
+		<td><input type="radio" value="5" name="q017_3" /></td>
+	</tr>
+	<tr class="fill-one">
+		<td class="left first_column">Прослушивание звонков и совместный анализ </td>
+		<td><input type="radio" value="1" name="q017_4" /></td>
+		<td><input type="radio" value="2" name="q017_4" /></td>
+		<td><input type="radio" value="3" name="q017_4" /></td>
+		<td><input type="radio" value="4" name="q017_4" /></td>
+		<td><input type="radio" value="5" name="q017_4" /></td>
+	</tr>
+	<tr class="sudy fill-one">
+		<td class="left first_column">Дистанционные обучения/прохождение курсов</td>
+		<td><input type="radio" value="1" name="q017_5" /></td>
+		<td><input type="radio" value="2" name="q017_5" /></td>
+		<td><input type="radio" value="3" name="q017_5" /></td>
+		<td><input type="radio" value="4" name="q017_5" /></td>
+		<td><input type="radio" value="5" name="q017_5" /></td>
+	</tr>
+    <tr class="fill-one">
+		<td class="left first_column">Практика в компьютерном классе</td>
+		<td><input type="radio" value="1" name="q017_6" /></td>
+		<td><input type="radio" value="2" name="q017_6" /></td>
+		<td><input type="radio" value="3" name="q017_6" /></td>
+		<td><input type="radio" value="4" name="q017_6" /></td>
+		<td><input type="radio" value="5" name="q017_6" /></td>
+	</tr>
+    <tr class="sudy fill-one">
+		<td class="left first_column">Обучение наставника</td>
+		<td><input type="radio" value="1" name="q017_7" /></td>
+		<td><input type="radio" value="2" name="q017_7" /></td>
+		<td><input type="radio" value="3" name="q017_7" /></td>
+		<td><input type="radio" value="4" name="q017_7" /></td>
+		<td><input type="radio" value="5" name="q017_7" /></td>
+	</tr>
+    <tr class="fill-one">
+		<td class="left first_column">Самостоятельное обучение с целью передачи опыта другим коллегам (для получения статуса  наставника)</td>
+		<td><input type="radio" value="1" name="q017_8" /></td>
+		<td><input type="radio" value="2" name="q017_8" /></td>
+		<td><input type="radio" value="3" name="q017_8" /></td>
+		<td><input type="radio" value="4" name="q017_8" /></td>
+		<td><input type="radio" value="5" name="q017_8" /></td>
+	</tr>
+	<tr class="sudy fill-one">
+		<td class="left first_column">Самостоятельное обучение с целью получения повышения категории </td>
+		<td><input type="radio" value="1" name="q017_9" /></td>
+		<td><input type="radio" value="2" name="q017_9" /></td>
+		<td><input type="radio" value="3" name="q017_9" /></td>
+		<td><input type="radio" value="4" name="q017_9" /></td>
+		<td><input type="radio" value="5" name="q017_9" /></td>
+	</tr>
+	<tr class="fill-one">
+		<td class="left first_column">Другое </td>
+		<td colspan="5"><textarea name="q017_10text" rows="3" cols="80" style="width:99%; height:5.1em">.</textarea></td>
+		
+	</tr>
+</tbody>
+</table>
+</div>
+<div class="body">
+<br style="clear:both;"/></div></div>
+
+<div class="required"><div class="heading">
+    <h2><span class="cislo">18. </span>Какие темы обучения Вам интересны/хотели бы включить в обучение?</h2>
+    </div>
+    <div class="body"><div class="fill-all">
+    	<textarea name="q018" rows="3" cols="80" style="width:99%; height:5.1em">.</textarea>
+    </div><br />
+    </div>
+</div>
+
+<div class="required"><div class="heading">
+   <h2><span class="cislo">19. </span>Рассматриваете ли Вы вакансии в других компаниях/ Альфа – Банке?<i class="required" title="Обязательная">*</i></h2>
+</div>
+<div class="body">
+<ul class="fill-one">
+   <li><label><input type="radio" value="Да" name="q019"/>Да</label></li>
+   <li><label><input type="radio" value="Нет" name="q019"/>Нет</label></li>
+</ul>
+<br style="clear:both;"/></div></div>
+<div class="required"><div class="heading">
+   <h2><span class="cislo">20. </span>Как долго Вы планируете работать в Альфа –Банке? Ещё…<i class="required" title="Обязательная">*</i></h2>
+</div>
+<div class="body">
+<ul class="fill-one">
+   <li><label><input type="radio" value="до года" name="q020"/>до года</label></li>
+   <li><label><input type="radio" value="1 год" name="q020"/>1 год</label></li>
+   <li><label><input type="radio" value="1,5 года" name="q020"/>1,5 года</label></li>
+   <li><label><input type="radio" value="2 года" name="q020"/>2 года</label></li>
+   <li><label><input type="radio" value="2 и более" name="q020"/>2 и более</label></li>
+</ul>
+<br style="clear:both;"/></div></div>
+
+<div class="required"><div class="heading">
+   <h2><span class="cislo">21. </span>С какой долей вероятности от 0 до 10, Вы могли бы рекомендовать свою компанию в качестве места работы друзьям, знакомым?<i class="required" title="Обязательная">*</i></h2>
+</div>
+<div class="body">
+<ul class="fill-one" id="work">
+   <li><label><input type="radio" value="0" name="q021" />0</label></li>
+	<li><label><input type="radio" value="1" name="q021" />1</label></li>
+	<li><label><input type="radio" value="2" name="q021" />2</label></li>
+	<li><label><input type="radio" value="3" name="q021" />3</label></li>
+	<li><label><input type="radio" value="4" name="q021" />4</label></li>
+	<li><label><input type="radio" value="5" name="q021" />5</label></li>
+	<li><label><input type="radio" value="6" name="q021" />6</label></li>
+	<li><label><input type="radio" value="7" name="q021" />7</label></li>
+	<li><label><input type="radio" value="8" name="q021" />8</label></li>
+	<li><label><input type="radio" value="9" name="q021" />9</label></li>
+	<li><label><input type="radio" value="10" name="q021" />10</label></li>
+</ul>
+<br style="clear:both;"/></div></div>
+
+
+<!--Start-->
+<div class="required">
+    <div class="heading">
+	   <h2><span class="cislo">22. </span>В каком из департаментов Альфа-Банка  вы хотели бы работать в будущем: <i class="required" title="Обязательная">*</i></h2>
+    </div>
+<div class="body">
+    <ul class="fill-one">
+    	<li><label><input type="radio" value="Отдел кадров" name="q022" />Отдел кадров</label></li>
+    	<li><label><input type="radio" value="Collection" name="q022" />Collection</label></li>
+        <li><label><input type="radio" value="Бухгалтерия, Финансы, Бэк-офис" name="q022" />Бухгалтерия, Финансы, Бэк-офис</label></li>
+        <li><label><input type="radio" value="Проектный менеджмент" name="q022" />Проектный менеджмент</label></li>
+        <li><label><input type="radio" value="Департамент продаж" name="q022" />Департамент продаж</label></li>
+        <li><label><input type="radio" value="ИТ департамент" name="q022" />ИТ департамент</label></li>
+        <li><label><input type="radio" value="Отдел обучения" name="q022" />Отдел обучения</label></li>
+        <li><label><input type="radio" value="Отдел контроля" name="q022" />Отдел контроля</label></li>
+    	<li><label><input type="radio" value="Другое (укажите)" name="q022" />Другое (укажите)</label></li>
+        <li><textarea name="q022_text" class="forText" rows="3" cols="80"></textarea></li>
+        <li><label><input type="radio" value="10" name="q022" />Не планирую работать в Альфа-Банке</label></li>
+    </ul>
+<br style="clear:both;"/></div></div>
+<!--Finish-->
+<div class="required"><div class="heading">
+    <h2><span class="cislo">23. </span>Какие 3 действия  Вы бы рекомендовали своему руководителю не использовать?</h2>
+    </div>
+    <div class="body"><div class="fill-all">
+    	<textarea name="q023" rows="3" cols="80" style="width:99%; height:5.1em">.</textarea>
+    </div><br />
+    </div>
+</div>
+<div class="required"><div class="heading">
+<h2><span class="cislo">24. </span>Поделитесь предложениями или замечаниями по организации рабочего процесса в Опер.Центре</h2>
+</div>
+<div class="body"><div class="fill-all">
+	<textarea name="q024" rows="3" cols="80" style="width:99%; height:5.1em">.</textarea>
+</div><br />
+</div>
+
+</div>
+
+<br />
+<div id="center">
+
+    <input type="submit" class="button submit next" value="Отправить анкету" id="sub"/>
+
+</div>
+
+<style type="text/css">
+.q{ position:absolute; left:-10000px; }
+</style>
+<input type="hidden" value="ru" name="lang" />
+</form>
+                <!-- vlastni obsah - konec -->
+
+              <br class="all" />
+            </div> <!-- end of content_in -->
+            </div> <!-- end of content -->
+            </div> <!-- end of content_container_in -->
+        </div> <!-- end of content_container -->
+
+
+        <hr class="all" />
+
+        <div id="footer_container">
+            <div id="footer">
+              <div id="footer_in">
+                                    <p>                                         </p>
+            </div> <!-- end of footer_in -->
+            </div> <!-- end of footer -->
+        </div> <!-- end of footer_container -->
+            </div>
+            </div>
+        <!--[if IE 6]>
+        <script src="js/png-fix.js"></script>
+        <script>
+            DD_belatedPNG.fix('#footer img');
+        </script>
+        <![endif]-->
+
+<script src="../theme/old/js/jquery.min.js" type="text/javascript"></script>
+<script src="../theme/old/js/jquery-ui-1.8.20.custom.min.js" type="text/javascript"></script>
+<script src="../theme/old/js/script.js" type="text/javascript"></script>
+
+        <script type="text/javascript">
+
+            $.datepicker.regional['ru'] = {
+                closeText:"\u0417\u0430\u043a\u0440\u044b\u0442\u044c",
+                prevText:"\u041f\u0440\u0435\u0434\u044b\u0434\u0443\u0449\u0438\u0439",
+                nextText:"\u0421\u043b\u0435\u0434\u0443\u044e\u0449\u0438\u0439",
+                currentText:"\u0421\u0435\u0433\u043e\u0434\u043d\u044f",
+                monthNames:["\u042f\u043d\u0432\u0430\u0440\u044c","\u0424\u0435\u0432\u0440\u0430\u043b\u044c","\u041c\u0430\u0440\u0442","\u0410\u043f\u0440\u0435\u043b\u044c","\u041c\u0430\u0439","\u0418\u044e\u043d\u044c","\u0418\u044e\u043b\u044c","\u0410\u0432\u0433\u0443\u0441\u0442","\u0421\u0435\u043d\u0442\u044f\u0431\u0440\u044c","\u041e\u043a\u0442\u044f\u0431\u0440\u044c","\u041d\u043e\u044f\u0431\u0440\u044c","\u0414\u0435\u043a\u0430\u0431\u0440\u044c"],
+                monthNamesShort:["\u042f\u043d","\u0424\u0435\u0432","\u041c\u0430\u0440\u0442","\u0410\u043f\u0440","\u041c\u0430\u0439","\u0418\u044e\u043d\u044c","\u0418\u044e\u043b\u044c","\u0410\u0432\u0433","\u0421\u0435\u043d","\u041e\u043a\u0442","\u041d\u043e\u044f\u0431","\u0414\u0435\u043a"],
+                dayNames:["\u042f\u043d","\u0424\u0435\u0432","\u041c\u0430\u0440\u0442","\u0410\u043f\u0440","\u041c\u0430\u0439","\u0418\u044e\u043d\u044c","\u0418\u044e\u043b\u044c","\u0410\u0432\u0433","\u0421\u0435\u043d","\u041e\u043a\u0442","\u041d\u043e\u044f\u0431","\u0414\u0435\u043a"],
+                dayNamesShort:["\u0412\u0441","\u041f\u043d","\u0412\u0442","\u0421\u0440","\u0427\u0442","\u041f\u0442","\u0421\u0431"],
+                dayNamesMin:["\u0412\u0441","\u041f\u043d","\u0412\u0442","\u0421\u0440","\u0427\u0442","\u041f\u0442","\u0421\u0431"],
+                dateFormat:"dd. mm. yy",
+                firstDay:1,isRTL:false
+            };
+
+            var lang = {
+                'lang_code': "ru",
+                'sber_chyba-plne-vyplneni': "\u0412\u044b \u043d\u0435 \u043e\u0442\u0432\u0435\u0442\u0438\u043b\u0438 \u043d\u0430 \u044d\u0442\u043e\u0442 \u0432\u043e\u043f\u0440\u043e\u0441 \u0438\u043b\u0438 \u043d\u0430 \u0435\u0433\u043e \u0447\u0430\u0441\u0442\u044c. \u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0438\u0442\u0435 \u0432\u043e\u043f\u0440\u043e\u0441 \u0441\u043d\u043e\u0432\u0430 \u0438 \u0437\u0430\u0432\u0435\u0440\u0448\u0438\u0442\u0435 \u0441\u0432\u043e\u0439 \u043e\u0442\u0432\u0435\u0442, \u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430.",
+                'sber_chyba-neni-cislo': "\u0412\u0441\u0442\u0430\u0432\u044c\u0442\u0435, \u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430, \u043d\u043e\u043c\u0435\u0440.",
+                'sber_chyba-neni-datum': "\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0430\u0442\u0443 \u0432 \u043a\u0430\u043b\u0435\u043d\u0434\u0430\u0440\u0435, \u043f\u043e\u0436\u0430\u043b\u0443\u0439\u0441\u0442\u0430.",
+                'common_zbyva': "\u043e\u0441\u0442\u0430\u0435\u0442\u0441\u044f",
+                'dateformat': "dd. mm. yy",
+                'pick_date':"\u0412\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0434\u0430\u0442\u0443",
+                'lang':"ru"
+            };
+
+            $(document).ready(function(){
+                for (var i in onload)
+                {
+                    onload[i]();
+                }
+
+            });
+
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function(){
+                $('form').submit(function(evt){
+                    if ($('.invalid').length == 0)
+                    {
+                        $(this).bind('submit.block',function(evt){evt.preventDefault()});
+                    }
+                    else
+                    {
+                        $(this).unbind('submit.block');
+                    }
+
+                });
+            });
+        </script>
+        <script type="text/javascript">
+        window.onbeforeunload = function (evt) {
+	var message = "Для сохранения Ваших ответов необходимо нажать на кнопку \"Отправить анкету\" в самом низу опроса";
+	if (typeof evt == "undefined") {
+		evt = window.event;
+	}
+	if (evt) {
+		evt.returnValue = message;
+	}
+	return message;
+    document.getElementById("sub").onsubmit = function(e) {
+      window.onbeforeunload = null;
+      return true;
+    };
+};
+$(':submit').click(function(){
+    window.onbeforeunload = null;
+});
+        </script>
+        
+</body>
+</html>

@@ -1,0 +1,136 @@
+﻿<!doctype html><html><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=100" >
+<link rel="stylesheet" type="text/css" href="../theme/default/style.css"/>
+<script type="text/javascript" src="../theme/default/jquery-1.12.3.min.js"></script> 
+<script type="text/javascript" src="../theme/default/script.js"></script> 
+<script type="text/javascript">
+$( document ).ready(function(){	
+	$('input:radio[name="q001"]').change(function(){
+	   if ($(this).val() == 'Да')
+	   {
+	   	$("#q001YBlock").css( "display","inline" );
+	   	$("#q001YBlock input").css( "display","inline" );
+
+		$("#q001NBlock").css( "display","none" );
+		$("#q001NBlock textarea").css( "display","none" );
+	   }
+	   else
+	   {
+	   	$("#q001YBlock").css( "display","none" );
+	   	$("#q001YBlock input").css( "display","none" );
+
+		$("#q001NBlock").css( "display","inline" );
+		$("#q001NBlock textarea").css( "display","inline" );
+	   }
+	});
+
+	$('input:radio[name="q002"]').change(function(){
+	   if ($(this).val() == 'Да')
+	   {
+	   	$("#q002YBlock").css( "display","inline" );
+	   	$("#q002YBlock input").css( "display","inline" );
+
+		$("#q002NBlock").css( "display","none" );
+		$("#q002NBlock textarea").css( "display","none" );
+	   }
+	   else
+	   {
+	   	$("#q002YBlock").css( "display","none" );
+	   	$("#q002YBlock input").css( "display","none" );
+
+		$("#q002NBlock").css( "display","inline" );
+		$("#q002NBlock textarea").css( "display","inline" );
+	   }
+	});
+});
+</script>
+</head><body>
+<div class="viewHead">&nbsp;</div>
+<div class="viewCenter">&nbsp;
+<div class="content"><form action="/forms/save.php" method="post">
+<h1>Оценка сервиса "Видеопоздравление"</h1>
+
+<p align="left">
+Дорогой друг!
+<br>Альфа-Банк проводит исследование среди сотрудников
+</p>
+
+
+<div class="question"><h1>1. Досмотрели ли Вы ролик до конца?:</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q001" id="q001_01" value="Да"/><label for="q001_01">Да</label></li>
+<li><input type="radio" name="q001" id="q001_02" value="Нет"/><label for="q001_02">Нет</label></li>
+</ul>
+
+<table id="q001YBlock" style="display:none" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><div class="rsw-picker"><input type="text" name="q001_01_01" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q001_01_01_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td width="100%" valign="bottom">На сколько Вам понравился ролик?</td></tr>
+</table>
+
+<div id="q001NBlock" style="display:none">Уточните, пожалуйста, по какой причине Вы не досмотрели ролик до конца?
+<textarea name="q001_02" class="comments required"></textarea>
+
+</div for="question">
+
+
+<div class="question"><h1>2. Ответили ли Вы на телефонный звонок во время поздравления?</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q002" id="q002_01" value="Да"/><label for="q002_01">Да</label></li>
+<li><input type="radio" name="q002" id="q002_02" value="Нет"/><label for="q002_02">Нет</label></li>
+</ul>
+
+<table id="q002YBlock" style="display:none" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><div class="rsw-picker"><input type="text" name="q002_01_01" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q002_01_01_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td width="100%" valign="bottom">На сколько Вас удивил звонок во время видео-обращения?</td></tr>
+</table>
+
+<div id="q002NBlock" style="display:none">Уточните, пожалуйста, по какой причине Вы не ответили на телефонный звонок во время поздравления?
+<textarea name="q002_02" class="comments required"></textarea>
+
+</div for="question">
+
+<div class="question"><h1>3. Оцените в целом данный сервис "Видеопоздравление":</h1>
+<div class="rsw-picker"><input type="text" name="q003_01" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q003_01_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div>
+</div for="question">
+
+<div class="question"><h1>4. Поделитесь, пожалуйста, своими впечатлениями и пожеланиями относительно сервиса "Видеопоздравление":</h1>
+<textarea name="q004" class="comments required"></textarea>
+</div for="question">
+
+<p align="center">
+Спасибо тебе за твои честные и детальные комментарии.
+<br/>Это поможет нам быть лучше!
+<br/>
+</p>
+
+<div id="submitBlockId" class="submit" align="center"><input type="submit" value="Отправить форму"/></div>
+</form>
+
+</div for="content">
+</div for="viewCenter">
+
+
+</body></html>

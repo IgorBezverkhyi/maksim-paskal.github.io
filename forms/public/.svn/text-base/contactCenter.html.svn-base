@@ -1,0 +1,958 @@
+﻿<!doctype html><html><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=100" >
+<link rel="stylesheet" type="text/css" href="../theme/default/style.css"/>
+<title>Оценка удовлетворенности работой в Альфа Банк</title>
+<script type="text/javascript" src="../theme/default/jquery-1.12.3.min.js"></script> 
+<script type="text/javascript" src="../theme/default/script.js"></script> 
+<style>
+#treners img,#treners .default {
+	opacity: 0.3;
+    filter: alpha(opacity=40);
+}
+#treners img:hover,#treners .selected {
+	opacity: 1;
+    filter: alpha(opacity=100);
+}
+#treners img {
+	width:163px;
+	height:173px;
+}
+</style>
+<script type="text/javascript">
+$( document ).ready(function(){
+	$('#treners img').randomize();
+	$('#idQuestion1 tr').randomize();
+
+
+	var currentTrainer;
+	$("#treners img").click(function(){
+		$("#currentTrainerId").val($(this).attr("title"));
+		if (currentTrainer)currentTrainer.attr("class","default");
+		$(this).attr("class","selected");
+		currentTrainer=$(this);
+	});
+/*
+	$( "form" ).submit(function(){
+		var totalScore = 0;
+		totalScore+= parseInt( $("input[name='q002_01_num']").val() );
+		totalScore+= parseInt( $("input[name='q002_02_num']").val() );
+		totalScore+= parseInt( $("input[name='q002_03_num']").val() );
+		totalScore+= parseInt( $("input[name='q002_04_num']").val() );
+		totalScore+= parseInt( $("input[name='q002_05_num']").val() );
+
+		$("#totalScoreId").val(totalScore);
+		$("#totalAvgScoreId").val(totalScore/5);
+	});
+*/
+});
+</script>
+</head><body>
+<div class="viewHead">&nbsp;</div>
+<div class="viewCenter">&nbsp;
+<div class="content"><form action="/forms/save.php" method="post">
+
+<!--<input type="hidden" id="totalScoreId" name="q001_total"/>
+<input type="hidden" id="totalAvgScoreId" name="q001_avg"/>-->
+
+<h1 align="center">Оценка удовлетворенности работой в Альфа Банк</h1>
+<p align="center">Дорогой друг!
+<br>Альфа-Банк проводит исследование среди сотрудников
+<br><b>Цель</b> - изучить Ваше мнение различными аспектами работы в Альфа Банке
+<br>Мы <b>гарантируем абсолютно полную анонимность</b> Ваших ответов. 
+</p>
+
+<!--Вопрос №1 -->
+<div class="question"><h1>1. Выберите имя Вашего руководителя:</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q001" id="q001_01" value="Острогруд Юлия"/><label for="q001_01">Острогруд Юлия</label></li>
+<li><input type="radio" name="q001" id="q001_02" value="Кириченко Наталья"/><label for="q001_02">Кириченко Наталья</label></li>
+<li><input type="radio" name="q001" id="q001_03" value="Рыбальченко Алексей"/><label for="q001_03">Рыбальченко Алексей</label></li>
+<li><input type="radio" name="q001" id="q001_04" value="Тарасенко Юлия"/><label for="q001_04">Тарасенко Юлия</label></li>
+<li><input type="radio" name="q001" id="q001_05" value="Зотова Юлия"/><label for="q001_05">Зотова Юлия</label></li>
+<li><input type="radio" name="q001" id="q001_06" value="Бахир Алена"/><label for="q001_06">Бахир Алена</label></li>
+<li><input type="radio" name="q001" id="q001_07" value="Стародуб Сергей"/><label for="q001_07">Стародуб Сергей</label></li>
+<li><input type="radio" name="q001" id="q001_08" value="Аверьянова Ольга"/><label for="q001_08">Аверьянова Ольга</label></li>
+<li><input type="radio" name="q001" id="q001_09" value="Кушниренко Елена"/><label for="q001_09">Кушниренко Елена</label></li>
+<li><input type="radio" name="q001" id="q001_10" value="Повжик Екатерина"/><label for="q001_10">Повжик Екатерина</label></li>
+<li><input type="radio" name="q001" id="q001_11" value="Позняк Елена"/><label for="q001_11">Позняк Елена</label></li>
+<li><input type="radio" name="q001" id="q001_12" value="Дмитриев Юрий"/><label for="q001_12">Дмитриев Юрий</label></li>
+<li><input type="radio" name="q001" id="q001_13" value="Малышенко Анна"/><label for="q001_13">Малышенко Анна</label></li>
+<li><input type="radio" name="q001" id="q001_14" value="Обновленская Ольга"/><label for="q001_14">Обновленская Ольга</label></li>
+<li><input type="radio" name="q001" id="q001_15" value="Кравченко Ирина"/><label for="q001_15">Кравченко Ирина</label></li>
+</ul>
+</div for="question">
+
+<!--Вопрос №2 -->
+
+<div class="question"><h1>2. Какой период времени Вы уже работаете в Альфа-банке?</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q002" id="q002_01" value="0-3 месяцев"/><label for="q002_01">0-3 месяцев</label></li>
+<li><input type="radio" name="q002" id="q002_02" value="4-6 месяцев"/><label for="q002_02">4-6 месяцев</label></li>
+<li><input type="radio" name="q002" id="q002_03" value="7-12 месяцев"/><label for="q002_03">7-12 месяцев</label></li>
+<li><input type="radio" name="q002" id="q002_04" value="1-2 года"/><label for="q002_04">1-2 года</label></li>
+<li><input type="radio" name="q002" id="q002_05" value="Более 2-х лет"/><label for="q002_05">Более 2-х лет</label></li>
+</ul>
+</div for="question">
+
+<!--Вопрос №3 -->
+
+<div class="question"><h1>3. Вы учитесь?</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q003" id="q003_01" value="1-3 курс"/><label for="q003_01">1-3 курс</label></li>
+<li><input type="radio" name="q003" id="q003_02" value="4-5 курс"/><label for="q003_02">4-5 курс</label></li>
+<li><input type="radio" name="q003" id="q003_03" value="Учусь заочно"/><label for="q003_03">Учусь заочно</label></li>
+<li><input type="radio" name="q003" id="q003_04" value="Окончил обучение"/><label for="q003_04">Окончил обучение</label></li>
+
+</ul>
+</div for="question">
+
+<!--Вопрос №4-->
+
+<div class="question"><h1>4. Есть ли у Вас дети?</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q004" id="q004_01" value="Да, до 3-лет"/><label for="q004_01">Да, до 3-лет</label></li>
+<li><input type="radio" name="q004" id="q004_02" value="Да, 3-6 года"/><label for="q004_02">Да, 3-6 года</label></li>
+<li><input type="radio" name="q004" id="q004_03" value="Да, 7-18 лет"/><label for="q004_03">Да, 7-18 лет</label></li>
+<li><input type="radio" name="q004" id="q004_04" value="Да, более 18"/><label for="q004_04">Да, более 18</label></li>
+<li><input type="radio" name="q004" id="q004_05" value="Нет"/><label for="q004_05">Нет</label></li>
+</ul>
+</div for="question">
+
+<!--Вопрос №5-->
+
+<div class="question"><h1>5. Оцените удовлетворенность своей текущей работой в Альфа-Банке</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q005" id="q005_01" value="Совершенно не удовлетворен"/><label for="q005_01">Совершенно не удовлетворен</label></li>
+<li><input type="radio" name="q005" id="q005_02" value="Скорее не удовлетворен"/><label for="q005_02">Скорее не удовлетворен</label></li>
+<li><input type="radio" name="q005" id="q005_03" value="Затрудняюсь ответить"/><label for="q005_03">Затрудняюсь ответить</label></li>
+<li><input type="radio" name="q005" id="q005_04" value="Скорее удовлетворен"/><label for="q005_04">Скорее удовлетворен</label></li>
+<li><input type="radio" name="q005" id="q005_05" value="Полностью удовлетворен"/><label for="q005_05">Полностью удовлетворен</label></li>
+</ul>
+</div for="question">
+
+<!--Вопрос №6-->
+
+<div class="question"><h1>6. Оцените, насколько Вы удовлетворены следующими факторами:</h1>
+<p style="font-style:italic">(где 1-неудовлетворительная оценка, 5-отличная оценка):</p>
+
+<table id="idQuestion1" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q006_01_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center">Условия работы</td><td valign="bottom">Офис, рабочее место, кухня, места общего пользования, телефоны, гарнитуры, ПК</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q006_02_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td  valign="center">Заработная плата</td><td  valign="center">Уровень оклада и премии</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q006_03_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center">График работы</td><td valign="center">Удобный, возможность изменений в графику, удобство контейнеров смен</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q006_04_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center">Карьерный рост</td><td valign="center">Ступени карьерного роста</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q006_05_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center">Обучение, тренинги</td><td valign="center">Полезность, интересность обучения. Формат обучения. Продолжительность. Периодичность</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q006_06_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center">Коллектив</td><td valign="center">Отношения в группе и в подразделении в целом</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q006_07_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center">Руководство</td><td valign="center">Руководитель Вашей группы</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q006_08_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center">Нематериальная мотивация</td><td valign="center">Награждения лучших сотрудников, корпоративные мероприятия. Регулярность проведения</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q006_09_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center">Ясность личных целей</td><td valign="center">Понятность постановки краткосрочных задач и задач на период аттестации</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q006_10_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center">Характер выполняемой работы</td><td valign="center">Удовлетворение своей работой. Специфика работы</td></tr>
+
+</table>
+
+</div for="question">
+
+<!--Вопрос №7-->
+
+<div class="question"><h1>7. Оцените, насколько для Вас важно:</h1>
+<p style="font-style:italic">(где 1-не важный фактор, 5-важный фактор):</p>
+
+<table id="idQuestion1" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q007_01_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Условия работы</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q007_02_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%"> Заработная плата </td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q007_03_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">График работы </td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q007_04_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Карьерный рост</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q007_05_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Обучение, тренинги </td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q007_06_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%"> Коллектив</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q007_07_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%"> Руководство</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q007_08_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Нематериальная мотивация</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q007_09_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Ясность личных целей</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q007_10_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Характер выполняемой работы</td></tr>
+
+</table>
+
+</div for="question">
+<!--Вопрос №8-->
+
+<div class="question"><h1>8. Какое вознаграждение за свою работу Вы считаете достойным?</h1>
+<p style="font-style:italic">Для оценки используйте пятибальную шкалу, где 1-совершенно не согласен, 5-полностью согласен.</p>
+
+<table id="idQuestion1" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q008_01_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Обратную связь, позволяющую судить о результатах работы </td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q008_02_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Признание руководства</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q008_03_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Возможность влиять на принятие решений</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q008_04_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Высокий уровень заработной платы</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q008_05_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Возможность развития карьерного роста</td></tr>
+
+</table>
+
+</div for="question">
+
+<!--Вопрос №9-->
+
+<div class="question"><h1>9. Как изменилась эффективность Вашей работы после внедрения комплекса мероприятий по нематериальной мотивации?</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q009" id="q009_01" value="Эффективность увеличилась"/><label for="q009_01">Эффективность увеличилась</label></li>
+<li><input type="radio" name="q009" id="q009_02" value="Эффективность уменьшилась"/><label for="q009_02">Эффективность уменьшилась</label></li>
+<li><input type="radio" name="q009" id="q009_03" value="Ничего не изменилось"/><label for="q009_03">Ничего не изменилось</label></li>
+
+</ul>
+</div for="question">
+
+<!--Вопрос №10-->
+
+<div class="question"><h1>10. Какие ещё нематериальные поощрения Вы бы внедрили?</h1>
+<textarea name="q010" class="comments "></textarea>
+</div for="question">
+
+<!--Вопрос №11-->
+
+<div class="question"><h1>11. Вы знаете/ понимаете, что нужно сделать для повышения категории сотрудника? </h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q011" id="q011_01" value="Да, знаю и понимаю"/><label for="q011_01">Да, знаю и понимаю</label></li>
+<li><input type="radio" name="q011" id="q011_02" value="Частично знаю/понимаю"/><label for="q011_02">Частично знаю/понимаю</label></li>
+<li><input type="radio" name="q011" id="q011_03" value="Нет, не знаю"/><label for="q011_03">Нет, не знаю</label></li>
+</ul>
+</div for="question">
+
+<!--Вопрос №12-->
+
+<div class="question"><h1>12. Насколько понятными для Вас являются критерии начисления ежемесячных премий?</h1>
+<p style="font-style:italic">Для оценки используйте пятибальную шкалу, где 1-совершенно не понятно, 5-полностью понятно.</p>
+
+<table id="idQuestion1" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q012_01_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Критерии начисления ежемесячных премий </td></tr>
+
+</table>
+
+</div for="question">
+
+<!--Вопрос №13-->
+
+<div class="question"><h1>13. Какое из утверждений лучше всего характеризует Ваше отношение к решениям руководства Вашего подразделения, принятым за последний год?</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q013" id="q013_01" value="Я понимаю и одобряю большинство его решений"/><label for="q013_01">Я понимаю и одобряю большинство его решений</label></li>
+<li><input type="radio" name="q013" id="q013_02" value="Я понимаю, но не одобряю большинство его решений "/><label for="q013_02">Я понимаю, но не одобряю большинство его решений </label></li>
+<li><input type="radio" name="q013" id="q013_03" value="Я не понимаю и многих решений, но считаю, что их нужно поддерживать"/><label for="q013_03">Я не понимаю и многих решений, но считаю, что их нужно поддерживать</label></li>
+<li><input type="radio" name="q013" id="q013_04" value="Я не понимаю и не поддерживаю его решения "/><label for="q013_04">Я не понимаю и не поддерживаю его решения </label></li>
+</ul>
+</div for="question">
+
+<!--Вопрос №14-->
+
+<div class="question"><h1>14. Оцените, насколько Вы согласны с утверждениями касательно Вашего непосредственного руководителя:</h1>
+<p style="font-style:italic">(где 1- совершенно не согласен, 5 - полностью согласен):</p>
+
+<table id="idQuestion1" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q014_01_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Компетентен по всем профессиональным вопросам</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q014_02_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%"> Контролирует поставленные задачи</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q014_03_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Инициативный, ответственный, внимательный к сотрудникам</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q014_04_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Ставит четкие цели и конкретные задачи</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q014_05_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Обратная связь от непосредственного руководителя регулярная</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q014_06_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Заботится о сотрудниках</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q014_07_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Ставит невыполнимые задачи</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q014_08_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Объективно оценивает результаты работы персонала</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q014_09_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Готовность помочь. Возможность получить ответы на все вопросы</td></tr>
+
+</table>
+
+</div for="question">
+
+<!--Вопрос №15-->
+
+<div class="question">
+<h1>15. Как Вы оцениваете атмосферу в своей группе/отделе?</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q015" id="q015_01" value="Дружеская"/><label for="q015_01">Дружеская</label></li>
+<li><input type="radio" name="q015" id="q015_02" value="Рабочая"/><label for="q015_02">Рабочая</label></li>
+<li><input type="radio" name="q015" id="q015_03" value="Командная (один за всех и все за одного)"/><label for="q015_03">Командная (один за всех и все за одного)</label></li>
+<li><input type="radio" name="q015" id="q015_04" value="Напряженная"/><label for="q015_04">Напряженная </label></li>
+<li><input type="radio" name="q015" id="q015_05" value="Зависимая от руководителя "/><label for="q015_05">Зависимая от руководителя  </label></li>
+<li><input type="radio" name="q015" id="q015_06" value="other"/><label for="q015_06">В группе существуют конфликты (укажите причины, примеры)</label></li>
+<textarea id="q015OtherId" class="comments hidden required" name="q015Other"></textarea>
+<li><input type="radio" name="q015" id="q015_07" value="other"/><label for="q015_07">Напряженная (укажите причины, примеры)</label></li>
+<textarea id="q015OtherId" class="comments hidden required" name="q015Other"></textarea>
+
+</ul>
+</div for="question">
+
+<!--Вопрос №16-->
+
+<div class="question">
+<h1>16. Хотели бы Вы работать в другой группе/отделе?</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q016" id="q016_01" value="Только в своей"/><label for="q016_01">Только в своей</label></li>
+<li><input type="radio" name="q016" id="q016_02" value="Нет"/><label for="q016_02">Не имеет значения</label></li>
+<li><input type="radio" name="q016" id="q016_03" value="other"/><label for="q016_03">Да (указать руководителя группы, в которой хотите работать и основную причину)</label></li>
+<textarea id="q016OtherId" class="comments hidden required" name="q016Other"></textarea>
+
+</ul>
+</div for="question">
+
+<!--Вопрос №17-->
+
+<div class="question"><h1>17. Оцените, пожалуйста, качество тренингов, в которых Вы принимали участие?</h1>
+<p style="font-style:italic">Поставьте оценку, где 1 означает «совсем не удовлетворен», а 5 - «полностью удовлетворен». Если вы не участвовали в тренингах у тренера – оставьте поле незаполненным.</p>
+
+<table id="idQuestion1" border="0" cellpadding="0" cellspacing="0" width="100%">
+<thead>
+	<th>Волченко</th>
+	<th>Сахно</th>
+	<th>Шишкина</th>
+	<th>Сементовская</th>
+	<th>Науменко</th>
+	<th>Критерии</th>
+</thead>
+<tbody>
+<tr>
+<td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="rsw-picker-message"/>
+<input name="q017_010_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+<td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="rsw-picker-message"/>
+<input name="q017_020_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+<td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="rsw-picker-message"/>
+<input name="q017_030_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+<td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="rsw-picker-message"/>
+<input name="q017_040_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+<td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="rsw-picker-message"/>
+<input name="q017_050_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+<td valign="center">Качество полученных знаний (польза информации для Вас)</td>
+</tr>
+
+<tr>
+<td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="rsw-picker-message"/>
+<input name="q017_011_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+<td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="rsw-picker-message"/>
+<input name="q017_021_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+<td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="rsw-picker-message"/>
+<input name="q017_031_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+<td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="rsw-picker-message"/>
+<input name="q017_041_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+<td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="rsw-picker-message"/>
+<input name="q017_051_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+<td valign="center">Доступность и понятность информации</td>
+</tr>
+
+<tr>
+<td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="rsw-picker-message"/>
+<input name="q017_012_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+<td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="rsw-picker-message"/>
+<input name="q017_022_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+<td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="rsw-picker-message"/>
+<input name="q017_032_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+<td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="rsw-picker-message"/>
+<input name="q017_042_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+<td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="rsw-picker-message"/>
+<input name="q017_052_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+<td valign="center">Готовность помочь. Возможность получить ответы на все вопросы</td>
+</tr>
+</tbody>
+
+</table>
+
+</div for="question">
+
+<!--Вопрос №18-->
+
+<div class="question"><h1>18. Укажите какой формат получения знаний** лично для Вас самый эффективный?*</h1>
+<p>* имеется ввиду такой вид получения знаний, после которого знания остаются на постоянной основе и Вы в любой момент можете ими воспользоваться (вспомнить информацию)</p>
+<p style="font-style:italic">(где 1 - совершенно не эффективный, 5 -максимально эффективный):</p>
+
+<table id="idQuestion1" border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q018_01_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Самостоятельная работа с БЗ/выполнение домашнего задания от тренера</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q018_02_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Просмотр видеороликов/видеокурсов</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q018_03_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Презентация с комментариями тренера</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q018_04_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Прослушивание звонков и совместный анализ</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q018_05_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Дистанционные обучения/прохождение курсов</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q018_06_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Практика в компьютерном классе</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q018_07_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Обучение наставника</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q018_08_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Самостоятельное обучение с целью передачи опыта другим коллегам (для получения статуса наставника)</td></tr>
+
+<tr><td><div class="rsw-picker"><input type="text" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q018_09_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td valign="center" width="100%">Самостоятельное обучение с целью получения повышения категории </td></tr>
+
+</table>
+
+</div for="question">
+
+<!--Вопрос №19-->
+
+<div class="question"><h1>19. Какие темы обучения Вам интересны/хотели бы включить в обучение?</h1>
+<textarea name="q019" class="comments "></textarea>
+</div for="question">
+
+<!--Вопрос №20-->
+
+<div class="question"><h1>20. Рассматриваете ли Вы вакансии в других компаниях/ Альфа – Банке?</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q020" id="q020_01" value="Да"/><label for="q020_01">Да</label></li>
+<li><input type="radio" name="q020" id="q020_02" value="Нет"/><label for="q020_02">Нет</label></li>
+
+</ul>
+</div for="question">
+
+<!--Вопрос №21-->
+
+<div class="question"><h1>21. Как долго Вы планируете работать в Альфа –Банке? Ещё…</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q021" id="q021_01" value="до года"/><label for="q021_01">до года</label></li>
+<li><input type="radio" name="q021" id="q021_02" value="1 год"/><label for="q021_02">1 год</label></li>
+<li><input type="radio" name="q021" id="q021_03" value="1,5 года"/><label for="q021_03">1,5 года</label></li>
+<li><input type="radio" name="q021" id="q021_04" value="2 года"/><label for="q021_04">2 года</label></li>
+<li><input type="radio" name="q021" id="q021_05" value="2 и более"/><label for="q021_05">2 и более</label></li>
+
+</ul>
+</div for="question">
+
+<!--Вопрос №22-->
+<div class="question"><h1>22. С какой долей вероятности от 0 до 10, Вы могли бы рекомендовать свою компанию в качестве места работы друзьям, знакомым?</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q022" id="q022_01" value="1"/><label for="q022_01">1</label></li>
+<li><input type="radio" name="q022" id="q022_02" value="2"/><label for="q022_02">2</label></li>
+<li><input type="radio" name="q022" id="q022_03" value="3"/><label for="q022_03">3</label></li>
+<li><input type="radio" name="q022" id="q022_04" value="4"/><label for="q022_04">4</label></li>
+<li><input type="radio" name="q022" id="q022_05" value="5"/><label for="q022_05">5</label></li>
+<li><input type="radio" name="q022" id="q022_06" value="6"/><label for="q022_06">6</label></li>
+<li><input type="radio" name="q022" id="q022_07" value="7"/><label for="q022_07">7</label></li>
+<li><input type="radio" name="q022" id="q022_08" value="8"/><label for="q022_08">8</label></li>
+<li><input type="radio" name="q022" id="q022_09" value="9"/><label for="q022_09">9</label></li>
+<li><input type="radio" name="q022" id="q022_10" value="10"/><label for="q022_10">10</label></li>
+</ul>
+</div for="question">
+<!--Вопрос №23-->
+
+<div class="question"><h1>23. В каком из департаментов Альфа-Банка вы хотели бы работать в будущем?</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q023" id="q023_01" value="Отдел кадров"/><label for="q023_01">Отдел кадров</label></li>
+<li><input type="radio" name="q023" id="q023_02" value="Collection"/><label for="q023_02">Collection</label></li>
+<li><input type="radio" name="q023" id="q023_03" value="Бухгалтерия, Финансы, Бэк-офис"/><label for="q023_03">Бухгалтерия, Финансы, Бэк-офис</label></li>
+<li><input type="radio" name="q023" id="q023_04" value="Проектный менеджмент"/><label for="q023_04">Проектный менеджмент</label></li>
+<li><input type="radio" name="q023" id="q023_05" value="Департамент продаж"/><label for="q023_05">Департамент продаж</label></li>
+<li><input type="radio" name="q023" id="q023_06" value="Отдел обучения"/><label for="q023_06">Отдел обучения</label></li>
+<li><input type="radio" name="q023" id="q023_07" value="ИТ департамент"/><label for="q023_07">ИТ департамент</label></li>
+<li><input type="radio" name="q023" id="q023_08" value="Отдел контроля"/><label for="q023_08">Отдел контроля</label></li>
+<li><input type="radio" name="q023" id="q023_09" value="other"/><label for="q023_09">Другое (укажите)</label></li>
+<textarea id="q023OtherId" class="comments hidden required" name="q023Other"></textarea>
+<li><input type="radio" name="q023" id="q023_10" value="Не планирую работать в Альфа-Банке"/><label for="q023_10">Не планирую работать в Альфа-Банке</label></li>
+</ul>
+</div for="question">
+
+<!--Вопрос №24-->
+
+<div class="question"><h1>24. Какие 3 действия Вы бы рекомендовали своему руководителю не использовать?</h1>
+<textarea name="q024" class="comments "></textarea>
+</div for="question">
+
+<!--Вопрос №25-->
+
+<div class="question"><h1>25. Поделитесь предложениями или замечаниями по организации рабочего процесса в Опер.Центре</h1>
+<textarea name="q025" class="comments "></textarea>
+</div for="question">
+
+<p align="center">
+Спасибо тебе за твои честные оценки и детальные комментарии.
+<br/>Это поможет нам быть лучше!
+<br/>
+<br/>С уважением, Департамент обсулживания клиентов! 
+</p>
+
+<div id="submitBlockId" class="submit" align="center"><input type="submit" value="Отправить форму"/></div>
+</form>
+
+</div for="content">
+</div for="viewCenter">
+
+
+</body></html>

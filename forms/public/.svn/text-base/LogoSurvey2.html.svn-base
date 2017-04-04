@@ -1,0 +1,658 @@
+﻿<!doctype html><html><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=100" >
+<link rel="stylesheet" type="text/css" href="../theme/default/style.css"/>
+<script type="text/javascript" src="../theme/default/jquery-1.12.3.min.js"></script> 
+<script type="text/javascript" src="../theme/default/script.js"></script>
+</head><body>
+<div class="viewHead">&nbsp;</div>
+<div class="viewCenter">&nbsp;
+<div class="content"><form action="/forms/save.php" method="post">
+<div align="center"><h1>Опрос по выбору названий<br/>для Контакт-Центра и направлений</h1></div>
+<p align="center" style="font-size:14px">
+Друзья, на основе ваших креативных идей мы сформировали общее виденье Контакт-Центра. По результатам голосования будет выбрана символика и названия как для всего Контакт-Центра, так и для направлений по вашим предпочтениям.
+<br><br>
+Пройти опрос можно только один раз. Дата закрытия опроса – 19.09.16
+Если возникнут какие-либо вопросы, обращайтесь к Насте Малюте (т. 9900-7594)
+
+</p>
+
+<div align="center">
+<strong>Оцени, пожалуйста, количеством «звёздочек», насколько нравится каждое из названий/логотипов (5 звёзд – наивысший балл)</strong>
+</div>
+
+<div class="question"><h1>1. Единое название для всего Контакт-Центра:</h1>
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr align="center">
+<td>Alfa Voice</td>
+<td>Alfa Force</td>
+<td>Alfa Agent 0800</td>
+</tr>
+
+<tr>
+<td align="center"><div class="rsw-picker"><input name="q001_01" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q001_02" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q001_03" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+</tr></table>
+
+</table>
+</div for="question">
+
+<!--q2-->
+<div class="question">
+<h1>2. Единый логотип для всего Контакт-Центра:</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+<tr align="center">
+<td><img src="images/LogoSurvey/2.png"/><br/><font color="grey"></font></td>
+<td><img src="images/LogoSurvey/2_2.png"/><br/><font color="grey"></font></td>
+<td><img src="images/LogoSurvey/2_3.png"/><br/><font color="grey"></font></td>
+</tr>
+<tr>
+<td align="center"><div class="rsw-picker"><input name="q002_01" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q002_02" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q002_03" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+</tr>
+</table>
+</div>
+
+<!--endq2-->
+
+<div class="question"><h1>3. Названия для направлений обслуживания:</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr align="center"><td colspan="3" bgcolor="#a1a1a1">3.1. Universal</td></tr>
+<tr align="center">
+<td>Duty<font color="grey"></font></td>
+<td>Voice<font color="grey"></font></td>
+<td>A-man<font color="grey"></font></td>
+</tr>
+<tr>
+<td align="center"><div class="rsw-picker"><input name="q003_01_01" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q003_01_02" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q003_01_03" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+</tr>
+
+
+
+<tr align="center"><td colspan="3" bgcolor="#a1a1a1">3.2. Plastic</td></tr>
+<tr align="center">
+<td>Power<font color="grey"></font></td>
+<td>PlAstiX - Man<font color="grey"></font></td>
+<td>Superman<font color="grey"></font></td>
+</tr>
+<tr>
+<td align="center"><div class="rsw-picker"><input name="q003_02_01" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q003_02_02" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q003_02_03" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+</tr>
+
+
+<tr align="center"><td colspan="3" bgcolor="#a1a1a1">3.3. Support</td></tr>
+<tr align="center">
+<td>Care<font color="grey"></font></td>
+<td>SOS<font color="grey"></font></td>
+<td>Helper<font color="grey"></font></td>
+</tr>
+<tr>
+<td align="center"><div class="rsw-picker"><input name="q003_03_01" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q003_03_02" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q003_03_03" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+</tr>
+
+</table>
+
+</div>
+
+<div class="question"><h1>4. Названия для направлений продаж:</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr align="center"><td colspan="3" bgcolor="#a1a1a1">4.1. Специальные направления</td></tr>
+<tr align="center">
+<td>Vision<font color="grey"></font></td>
+<td>LevelUP<font color="grey"></font></td>
+<td>StartUP<font color="grey"></font></td>
+</tr>
+<tr>
+<td align="center"><div class="rsw-picker"><input name="q004_01_01" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q004_01_02" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q004_01_03" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+</tr>
+
+
+<tr align="center"><td colspan="3" bgcolor="#a1a1a1">4.2. Cross продажи</td></tr>
+<tr align="center">
+<td>Bombardier<font color="grey"></font></td>
+<td>Cross fiters<font color="grey"></font></td>
+<td>Dreamers<font color="grey"></font></td>
+</tr>
+<tr>
+<td align="center"><div class="rsw-picker"><input name="q004_02_01" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q004_02_02" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q004_02_03" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+</tr>
+
+
+<tr align="center"><td colspan="3" bgcolor="#a1a1a1">4.3. Кредит на диване</td></tr>
+<tr align="center">
+<td>Loyalty<font color="grey"></font></td>
+<td>Wizards<font color="grey"></font></td>
+<td>Speedman<font color="grey"></font></td>
+</tr>
+<tr>
+<td align="center"><div class="rsw-picker"><input name="q004_03_01" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q004_03_02" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q004_03_03" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+</tr>
+
+</table>
+
+</div>
+
+
+<div class="question"><h1>5. Логотипы для направлений обслуживания:</h1>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+<tr align="center"><td colspan="4" bgcolor="#a1a1a1">5.1. Universal</td></tr>
+<tr align="center">
+<td><img src="images/LogoSurvey/6.1.1.png"/></td>
+<td><img src="images/LogoSurvey/6.1.2.png"/></td>
+<td><img src="images/LogoSurvey/6.1.3.png"/></td>
+<td><img src="images/LogoSurvey/5.1.4.png"/></td>
+</tr>
+<tr>
+<td align="center"><div class="rsw-picker"><input name="q005_01_01" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q005_01_02" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q005_01_03" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q005_01_04" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+</tr>
+
+
+
+<tr align="center"><td colspan="4" bgcolor="#a1a1a1">5.2. Plastic</td></tr>
+<tr align="center">
+<td><img src="images/LogoSurvey/6.2.1.png"/></td>
+<td><img src="images/LogoSurvey/6.2.2.png"/></td>
+<td><img src="images/LogoSurvey/6.2.3.png"/></td>
+<td><img src="images/LogoSurvey/5.2.4.png"/></td>
+</tr>
+<tr>
+<td align="center"><div class="rsw-picker"><input name="q005_02_01" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q005_02_02" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q005_02_03" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q005_02_04" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+</tr>
+
+<tr align="center"><td colspan="4" bgcolor="#a1a1a1">5.3. Support</td></tr>
+<tr align="center">
+<td><img src="images/LogoSurvey/6.3.1.png"/></td>
+<td><img src="images/LogoSurvey/6.3.2.png"/></td>
+<td><img src="images/LogoSurvey/6.3.3.png"/></td>
+<td><img src="images/LogoSurvey/5.3.4.png"/></td>
+</tr>
+<tr>
+<td align="center"><div class="rsw-picker"><input name="q005_03_01" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q005_03_02" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q005_03_03" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q005_03_04" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+</tr>
+
+
+</table>
+</div for="question">
+
+
+<div class="question"><h1>6. Логотипы для направлений продаж:</h1>
+
+
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+
+<tr align="center"><td colspan="4" bgcolor="#a1a1a1">6.1. Специальные направления</td></tr>
+<tr align="center">
+<td><img src="images/LogoSurvey/7.1.1.png"/></td>
+<td><img src="images/LogoSurvey/7.1.2.png"/></td>
+<td><img src="images/LogoSurvey/7.1.3.png"/></td>
+<td><img src="images/LogoSurvey/6.1.4.png"/></td>
+</tr>
+<tr>
+<td align="center"><div class="rsw-picker"><input name="q006_01_01" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q006_01_02" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q006_01_03" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q006_01_04" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+</tr>
+
+
+
+<tr align="center"><td colspan="4" bgcolor="#a1a1a1">6.2. Cross продажи</td></tr>
+<tr align="center">
+<td><img src="images/LogoSurvey/7.2.1.png"/></td>
+<td><img src="images/LogoSurvey/7.2.2.png"/></td>
+<td><img src="images/LogoSurvey/7.2.3.png"/></td>
+<td><img src="images/LogoSurvey/6.2.4.png"/></td>
+</tr>
+<tr>
+<td align="center"><div class="rsw-picker"><input name="q006_02_01" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q006_02_02" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q006_02_03" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q006_02_04" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+</tr>
+
+<tr align="center"><td colspan="4" bgcolor="#a1a1a1">6.3. Кредит на диване</td></tr>
+<tr align="center">
+<td><img src="images/LogoSurvey/7.3.1.png"/></td>
+<td><img src="images/LogoSurvey/7.3.2.png"/></td>
+<td><img src="images/LogoSurvey/7.3.3.png"/></td>
+<td><img src="images/LogoSurvey/6.3.4.png"/></td>
+</tr>
+<tr>
+<td align="center"><div class="rsw-picker"><input name="q006_03_01" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q006_03_02" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q006_03_03" type="hidden" class="required rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+
+<td align="center"><div class="rsw-picker"><input name="q006_03_04" type="hidden" class="required rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td>
+</tr>
+
+
+</table>
+</div for="question">
+
+
+<div class="question"><h1>7. Как вам идея освещать новости и успехи  нашего Контакт-Центре  в регулярном дайджесте в формате web-комиксов?</h1>
+<div style="width:100%" align="center">
+<div class="rsw-picker"><input name="q007" type="hidden" class="rsw-picker-message-number required"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></div>
+</div for="question">
+
+<div class="question"><h1>8. Поделись своими комментариями здесь</h1>
+<textarea name="q008" class="comments required"></textarea>
+</div for="question">
+
+<p align="center">
+<strong>Большое спасибо! Совсем скоро мы с вами поделимся результатами!</strong>
+</p>
+
+<div id="submitBlockId" class="submit" align="center"><input type="submit" value="Отправить форму"/></div>
+</form>
+
+</div for="content">
+</div for="viewCenter">
+
+
+</body></html>

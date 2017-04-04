@@ -1,0 +1,28 @@
+/* ANA survey template colors*/
+
+/*-- Basic elements--*/
+a{color: #000;}
+a:hover,a:focus,a:active {color:#555;}
+b {color:#000;}
+             
+body {background:#eee;}
+#head {background:#ddd;}
+
+#head img.logo{
+	float:right;		
+}
+
+#content {background:#fff;}
+#content p {color:#000;}
+
+/*-- Survey elements--*/
+h1 {color:#000;}
+#pub_survey table {background:#fff;}
+#pub_survey table tr td {background:#f1f1f1;}
+#pub_survey table tr.sudy td {background:#fff;}
+
+#pub_survey .skala {background:#fff;}
+#pub_survey .skala tr td {background:#f1f1f1;}
+#pub_survey .skala tr.sudy td {background:#fff;}
+
+#footer p {text-align:left; margin:0; padding:0;}

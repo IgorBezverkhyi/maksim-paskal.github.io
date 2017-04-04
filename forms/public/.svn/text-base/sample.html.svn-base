@@ -1,0 +1,66 @@
+﻿<!doctype html><html><head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=100" >
+<link rel="stylesheet" type="text/css" href="../theme/default/style.css"/>
+<script type="text/javascript" src="../theme/default/jquery-1.12.3.min.js"></script> 
+<script type="text/javascript" src="../theme/default/script.js"></script> 
+</head><body>
+<div class="viewHead">&nbsp;</div>
+<div class="viewCenter">&nbsp;
+<div class="content"><form action="/forms/save.php" method="post">
+<h1>ОЦЕНКА ТРЕНИНГА РАЗВИТИЯ</h1>
+<p align="center">Уважаемый коллега!
+<br/>В этом месяце ты участвовал в тренинге, который был направлен на развитие твоих компетенций. 
+<br/>Надеемся, тренинг для тебя был полезен!
+<br/>Мы всегда стремимся быть лучше, поэтому очень важна твоя обратная связь о тренингах, которые ты посетил! 
+</p>
+<div class="question"><h1>1. У кого из тренеров в этом месяце ты участвовал в тренинге развития?</h1>
+<p>ФИО:<input size="50" name="q001" type="text" class="required"/></p>
+</div for="question">
+
+
+<div class="question"><h1>2. Оцените, пожалуйста, по 5-бальной шкале следующие пункты (где 1-неудовлетворительная оценка, 5-отличная оценка):</h1>
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr><td><div class="rsw-picker"><input type="text" name="q002_01" size="7" readonly="true" class="required rsw-picker-message"/>
+<input name="q002_01_num" type="hidden" class="rsw-picker-message-number"/>
+<div class="rsw-picker-stars">
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+<div class="rsw-unstarred"></div>
+</div></div></td><td width="100%" valign="bottom">Доступность изложения материала тренером</td></tr>
+</table>
+<div class="question"><h1>4. Этот тренинг:</h1>
+<ul class="radio-block required-radio">
+<li><input type="radio" name="q004" id="q004_01" value="не соответствовал моим ожиданиям"/><label for="q004_01">не соответствовал моим ожиданиям</label></li>
+<li><input type="radio" name="q004" id="q004_02" value="соответствовал моим ожиданиям"s/><label for="q004_02">соответствовал моим ожиданиям</label></li>
+<li><input type="radio" name="q004" id="q004_03" value="превысил мои ожидания"/><label for="q004_03">превысил мои ожидания</label></li>
+<li><input type="radio" name="q004" id="q004_04" value="тренинг лучше тех, на которых я был(а) раньше"/><label for="q004_04">тренинг лучше тех, на которых я был(а) раньше</label></li>
+<li><input type="radio" name="q004" id="q004_05" value="тренинг хуже тех, на которых я был(а) раньше"/><label for="q004_05">тренинг хуже тех, на которых я был(а) раньше</label></li>
+<li><input type="radio" name="q004" id="q004_06" value="я никогда не был(а) на подобных тренингах"/><label for="q004_06">я никогда не был(а) на подобных тренингах</label></li>
+<li><input type="radio" name="q004" id="q004_07" value="other"/><label for="q004_07">свой вариант</label></li>
+<textarea id="q004OtherId" class="comments hidden required" name="q004Other"></textarea>
+</ul>
+</div for="question">
+
+
+<div class="question"><h1>5. Напиши темы тренингов, которые тебе интересно посетить:</h1>
+<textarea name="q005" class="comments required"></textarea>
+</div for="question">
+
+<p align="center">
+Спасибо тебе за твои честные оценки и детальные комментарии.
+<br/>Это поможет нам быть лучше!
+<br/>
+<br/>С уважением, Отдел обучения! 
+</p>
+
+<div id="submitBlockId" class="submit" align="center"><input type="submit" value="Отправить форму"/></div>
+</form>
+
+</div for="content">
+</div for="viewCenter">
+
+
+</body></html>
